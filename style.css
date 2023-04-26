@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.body-content {
+    /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: end;
+    }
+
+
+    h1 {
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+
+    button {
+        grid-area: bmais;
+        background-color: white;
+        color: white;
+        border: none;
+        position: fixed;
+    }
+}
+
+@media screen  and (min-width: 601px) and (max-width: 768px) {
+    h1 {
+        text-align: center;
+    }
+}
+
+
+/* Pra fixar o rodapé no final da página*/
+footer {
+    border-top: 1px solid #333; /**Pra criar uma linha em cima separando o rodapé do conteúdo**/
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    
+}
