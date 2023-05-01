@@ -7,12 +7,21 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 div#formulario {
 background-color: whitesmoke;
 padding: 33px;
+text-align: center;
+margin-top: 10%;
+    
+    
+}
 
-    
-    
+p#ptarefa {
+    margin-left: 40px;
 }
 
 p#pdata {
@@ -22,4 +31,34 @@ p#pdata {
 
 p#phorario {
     margin-bottom: 33px;
+    margin-left: 50px;
 }
+
+p#pbotaoenviar {
+    text-align: right;
+}
+
+
+input#tarefa {
+    margin-left: 33px;
+}
+
+input#data {
+    margin-left: 33px;
+}
+
+input#horario {
+    margin-left: 20px;
+}
+
+input#botaoenviar {
+    background-color:#00BF63;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+
+
+
