@@ -39,15 +39,15 @@ p#pbotaoenviar {
 }
 
 
-input#tarefa {
+input#idtarefa {
     margin-left: 33px;
 }
 
-input#data {
+input#iddata {
     margin-left: 33px;
 }
 
-input#horario {
+input#idhorario {
     margin-left: 20px;
 }
 
