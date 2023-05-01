@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div#formulario {
+background-color: whitesmoke;
+padding: 33px;
+
+    
+    
+}
+
+p#pdata {
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+p#phorario {
+    margin-bottom: 33px;
+}

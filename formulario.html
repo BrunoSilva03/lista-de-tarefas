@@ -6,10 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tarefa</title>
     <link rel="shortcut icon" href="imagens/taref.png" type="image/x-icon">
+    <link rel="stylesheet" href="styleform.css">
 </head>
 <body>
-    <form action="">
-        
-    </form>
+    <div id="formulario">
+        <form action="" autocomplete="off">
+            <p id="ptarefa">Tarefa: <input type="text" name="tarefa" id="tarefa"></p>
+            <p id="pdata">Data: <input type="date" name="data" id="data"></p>
+            <p id="phorario">Horário: <input type="datetime" name="horario" id="horario"></p>
+            <p><input type="button" value="Enviar" ></p>
+        </form>
+    </div>
 </body>
 </html>
