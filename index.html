@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,17 @@
     <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header> <h1>Lista de Tarefas</h1></header>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
     <main>
-       <p>A lista está vazia no momento. Clique em "+" para adicionar uma tarefa</p>
+        <p>A lista está vazia no momento. Clique em "+" para adicionar uma tarefa</p>
         <div id="botaoMais">
-            <button id="buttonMais">
-                <a href="formulario.html"><img src="imagens/simbolo-mais-50px-50px.png" alt="Adicionar"></a>
+            <button id="buttonMais" onclick="preencherformulario()">
+                <img src="imagens/simbolo-mais-50px-50px.png" alt="Adicionar">
+                <!-- <a href="formulario.html"><img src="imagens/simbolo-mais-50px-50px.png" alt="Adicionar"></a> -->
             </button>
         </div>
     </main>
@@ -22,4 +27,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
