@@ -8,4 +8,6 @@ function adicionar() {
     console.log("TAREFA: " + tarefa);
     console.log("DATA: " + data);
     console.log("HORÁRIO: " + horario);
+    
+    window.location.href = "index.html";
 }
