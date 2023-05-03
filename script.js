@@ -1,3 +1,4 @@
+
 function adicionar() {
     
     window.alert("Você clicou no botão");
@@ -8,9 +9,17 @@ function adicionar() {
     console.log("TAREFA: " + tarefa)
     console.log("DATA: " + data);
     console.log("HORÁRIO: " + horario);
-    
 
-    /*
+    var novoH1 = document.createElement("h1");
+    var textoAntigo = document.getElementById("textoParagrafo");
+    var novoTexto = document.createTextNode(textoAntigo.innerHTML);
+    novoH1.appendChild(novoTexto);
+    textoAntigo.replaceChild(novoH1, textoAntigo);
+    
+/*
+    let textinho = document.getElement('p#texto');
+    textinho.document.setElement('Novo texto aí galera pessoal!');
+    
     const taskItem = document.createElement('div');
     taskItem.classList.add('task-item');
 
@@ -20,7 +29,7 @@ function adicionar() {
     DIA: ${data}<br>
     HORÁRIO: ${horario}`
     
-    
+    /*
     var novaTarefa = document.createElement('div');
     novaTarefa.innerHTML = `<p>${tarefa}</p`
     novaTarefa.innerHTML += `<p>DIA: ${data}</p>`
@@ -31,13 +40,19 @@ function adicionar() {
     data = '';
     horario = '';
     */
+    
     window.location.href = "menuzinho.html"
 }
 
+
+function funcione() {
+    window.alert("Funcione imediatamente!")
+}
 
 
 
 function preencherformulario() {
     window.location.href = "formulario.html"
 }
+
 

@@ -15,7 +15,7 @@
         <h1>Lista de Tarefas</h1>
     </header>
     <main>
-        <p>A lista está vazia no momento. Clique em "+" para adicionar uma tarefa</p>
+        <p id="textoParagrafo">A lista está vazia no momento. Clique em "+" para adicionar uma tarefa</p>
         <div id="botaoMais">
             <button id="buttonMais" onclick="preencherformulario()">
                 <img src="imagens/simbolo-mais-50px-50px.png" alt="Adicionar">
@@ -29,7 +29,11 @@
     </main>
     <footer>&copy;Bruno Silva Rodrigues</footer>
 
-    <script src="script.js"></script>
+    <script>
+        function preencherformulario() {
+            window.location.href = "formulario.html"
+        }
+    </script>
 </body>
 
 </html>
