@@ -10,6 +10,7 @@ function adicionar() {
     console.log("HORÁRIO: " + horario);
     
 
+    /*
     const taskItem = document.createElement('div');
     taskItem.classList.add('task-item');
 
@@ -19,16 +20,17 @@ function adicionar() {
     DIA: ${data}<br>
     HORÁRIO: ${horario}`
     
-    /*
+    
     var novaTarefa = document.createElement('div');
     novaTarefa.innerHTML = `<p>${tarefa}</p`
     novaTarefa.innerHTML += `<p>DIA: ${data}</p>`
     novaTarefa.innerHTML += `<p>HORÁRIO: ${horario}</p>`
-    */
+    
     
     tarefa = '';
     data = '';
     horario = '';
+    */
     window.location.href = "menuzinho.html"
 }
 
