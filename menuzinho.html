@@ -15,25 +15,34 @@
         <h1>Lista de Tarefas</h1>
     </header>
     <main>
-        <p id="textoParagrafo">A lista está vazia no momento. Clique em "+" para adicionar uma tarefa</p>
+        <div class="tasks">
+            <p>A lista está vazia no momento. Clique em "+" para adicionar uma tarefa</p>
+        </div>
+
+        <div id="formulario">
+            <form action="script.js" autocomplete="off" method="OPTIONS">
+                <p id="ptarefa"><label for="idtarefa">Tarefa:</label> <input type="text" name="tarefa" id="idtarefa"
+                        required></p>
+                <p id="pdata"><label for="iddata">Data:</label> <input type="date" name="data" id="iddata"></p>
+                <p id="phorario"><label for="idhorario">Horário:</label> <input type="datetime" name="horario"
+                        id="idhorario"></p>
+                <p id="pbotaoenviar"><input type="submit" value="Adicionar Tarefa" id="botaoenviar" onclick="adicionar()"></p>
+    
+            </form>
+        </div>
+        
         <div id="botaoMais">
-            <button id="buttonMais" onclick="preencherformulario()">
+            <button id="buttonMais" onclick="adicionarTask()">
                 <img src="imagens/simbolo-mais-50px-50px.png" alt="Adicionar">
-                <!-- <a href="formulario.html"><img src="imagens/simbolo-mais-50px-50px.png" alt="Adicionar"></a> -->
+                
             </button>
         </div>
 
-        <div class="tasks">
-
-        </div>
+        
     </main>
     <footer>&copy;Bruno Silva Rodrigues</footer>
 
-    <script>
-        function preencherformulario() {
-            window.location.href = "formulario.html"
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
